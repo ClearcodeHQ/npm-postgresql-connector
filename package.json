@@ -1,5 +1,5 @@
 {
-  "name": "postgresql-connector",
+  "name": "@clearcodehq/postgresql-connector",
   "version": "0.9.0",
   "description": "Simplifies connection retry logic to PostgreSQL.",
   "main": "src/postgresql-connector.js",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "pg": "^7.4.1",
-    "synchronous-timeout": "https://github.com/ClearcodeHQ/npm-synchronous-timeout.git"
+    "@clearcodehq/synchronous-timeout": "^0.9.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
