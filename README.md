@@ -23,7 +23,7 @@ const PgConnector = require("postgresql-connector");
 const config = {
     host: 'postgres', // by default process.env.PGSQL_DB_HOST,
     port: 5432, // by default process.env.PGSQL_DB_PORT,
-    database: 'mydb', // by default process.env.PGSQL_DB_HOST,
+    database: 'mydb', // by default process.env.PGSQL_DB_NAME,
     user: 'myuser', // by default process.env.PGSQL_DB_USER,
     password: 'mypassword', // by default process.env.PGSQL_DB_PASSWORD,
     maxPostgresqlConnectionRetries: 5, // by default 10,
